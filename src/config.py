@@ -44,4 +44,3 @@ def drive_settings() -> tuple[str, Path]:
     if not key_path.is_file():
         raise FileNotFoundError(f"Service-account JSON missing: {key_path}")
     return folder, key_path
-```
