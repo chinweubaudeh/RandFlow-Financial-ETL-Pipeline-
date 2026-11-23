@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+credentials/*
+!credentials/.gitkeep
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/
+*.log
